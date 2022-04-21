@@ -1,5 +1,9 @@
 package Java;
 
 class Payment {
-    Integer id;    
+    String id;
+
+    public Payment(String id){
+        this.id = id;
+    }
 }
