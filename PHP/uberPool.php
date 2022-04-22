@@ -8,7 +8,6 @@ class uberPool extends Car{
         parent::__construct($license, $driver);
         $this->brand=$brand;
         $this->model=$model;
-
     }
 
 }
